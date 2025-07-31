@@ -1,9 +1,9 @@
 package model;
 
-public class EmployeeExpert extends Person {
+public class EmployeeFinancial extends Person {
     private int degree;
 
-    public EmployeeExpert(String firstName, String lastName, String nationalId, String address, int degree) {
+    public EmployeeFinancial(String firstName, String lastName, String nationalId, String address, int degree) {
         super(firstName, lastName, nationalId, address);
         this.degree = degree;
     }
